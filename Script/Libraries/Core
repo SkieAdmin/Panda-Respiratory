@@ -10,8 +10,8 @@ local destroyed
 
 local colorPickers = {}
 
-if game.CoreGui:FindFirstChild('TurtleUiLib') then
-    game.CoreGui:FindFirstChild('TurtleUiLib'):Destroy()
+if game.CoreGui:FindFirstChild('PandaUiLib') then
+    game.CoreGui:FindFirstChild('PandaUiLib'):Destroy()
     destroyed = true
 end
 
@@ -69,11 +69,11 @@ else
 obj.Parent = game.CoreGui
 end
 end
-local TurtleUiLib = Instance.new("ScreenGui")
+local PandaUiLib = Instance.new("ScreenGui")
 
-TurtleUiLib.Name = "TurtleUiLib"
+PandaUiLib.Name = "PandaUiLib"
 
-protect_gui(TurtleUiLib)
+protect_gui(PandaUiLib)
 
 local xOffset = 20
 
@@ -82,7 +82,7 @@ local uis = game:GetService("UserInputService")
 local keybindConnection
 
 function library:Destroy()
-    TurtleUiLib:Destroy()
+    PandaUiLib:Destroy()
     if keybindConnection then
         keybindConnection:Disconnect()
     end
@@ -92,7 +92,7 @@ function library:Keybind(key)
 
     keybindConnection = uis.InputBegan:Connect(function(input, gp)
         if not gp and input.KeyCode == Enum.KeyCode[key] then
-            TurtleUiLib.Enabled = not TurtleUiLib.Enabled
+            PandaUiLib.Enabled = not PandaUiLib.Enabled
         end
     end)
 end
@@ -104,9 +104,9 @@ function library:Window(name)
     local UiWindow = Instance.new("Frame")
 
     UiWindow.Name = "UiWindow"
-    UiWindow.Parent = TurtleUiLib
-    UiWindow.BackgroundColor3 = Color3.fromRGB(0, 151, 230)
-    UiWindow.BorderColor3 = Color3.fromRGB(0, 151, 230)
+    UiWindow.Parent = PandaUiLib
+    UiWindow.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
+    UiWindow.BorderColor3 = Color3.fromRGB(31, 121, 239)
     UiWindow.Position = UDim2.new(0, xOffset, 0, 20)
     UiWindow.Size = UDim2.new(0, 207, 0, 33)
     UiWindow.ZIndex = 4 + zindex
@@ -118,8 +118,8 @@ function library:Window(name)
     local Header = Instance.new("Frame")
     Header.Name = "Header"
     Header.Parent = UiWindow
-    Header.BackgroundColor3 = Color3.fromRGB(0, 168, 255)
-    Header.BorderColor3 = Color3.fromRGB(0, 168, 255)
+    Header.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
+    Header.BorderColor3 = Color3.fromRGB(31, 121, 239)
     Header.Position = UDim2.new(0, 0, -0.0202544238, 0)
     Header.Size = UDim2.new(0, 207, 0, 26)
     Header.ZIndex = 5 + zindex
