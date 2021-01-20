@@ -1,3 +1,5 @@
+-- If isn't Panda lmfao
+-- Updated 1/20/2021 ( Initial Update )
 local library = {}
 local windowCount = 0
 local sizes = {}
@@ -141,8 +143,8 @@ function library:Window(name)
     local Window = Instance.new("Frame")
     Minimise.Name = "Minimise"
     Minimise.Parent = Header
-    Minimise.BackgroundColor3 = Color3.fromRGB(0, 168, 255)
-    Minimise.BorderColor3 = Color3.fromRGB(0, 168, 255)
+    Minimise.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
+    Minimise.BorderColor3 = Color3.fromRGB(31, 121, 239)
     Minimise.Position = UDim2.new(0, 185, 0, 2)
     Minimise.Size = UDim2.new(0, 22, 0, 22)
     Minimise.ZIndex = 7 + zindex
@@ -161,8 +163,8 @@ function library:Window(name)
 
     Window.Name = "Window"
     Window.Parent = Header
-    Window.BackgroundColor3 = Color3.fromRGB(47, 54, 64)
-    Window.BorderColor3 = Color3.fromRGB(47, 54, 64)
+    Window.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+    Window.BorderColor3 = Color3.fromRGB(22, 22, 22)
     Window.Position = UDim2.new(0, 0, 0, 0)
     Window.Size = UDim2.new(0, 207, 0, 33)
     Window.ZIndex = 1 + zindex
@@ -181,7 +183,7 @@ function library:Window(name)
         listOffset[winCount] = listOffset[winCount] + 32
         Button.Name = "Button"
         Button.Parent = Window
-        Button.BackgroundColor3 = Color3.fromRGB(53, 59, 72)
+        Button.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         Button.BorderColor3 = Color3.fromRGB(113, 128, 147)
         Button.Position = UDim2.new(0, 12, 0, listOffset[winCount])
         Button.Size = UDim2.new(0, 182, 0, 26)
@@ -257,7 +259,7 @@ function library:Window(name)
 
         ToggleButton.Name = "ToggleButton"
         ToggleButton.Parent = ToggleDescription
-        ToggleButton.BackgroundColor3 = Color3.fromRGB(47, 54, 64)
+        ToggleButton.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         ToggleButton.BorderColor3 = Color3.fromRGB(113, 128, 147)
         ToggleButton.Position = UDim2.new(1.2061069, 0, 0.0769230798, 0)
         ToggleButton.Size = UDim2.new(0, 22, 0, 22)
@@ -273,7 +275,7 @@ function library:Window(name)
 
         ToggleFiller.Name = "ToggleFiller"
         ToggleFiller.Parent = ToggleButton
-        ToggleFiller.BackgroundColor3 = Color3.fromRGB(68, 189, 50)
+        ToggleFiller.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
         ToggleFiller.BorderColor3 = Color3.fromRGB(47, 54, 64)
         ToggleFiller.Position = UDim2.new(0, 5, 0, 5)
         ToggleFiller.Size = UDim2.new(0, 12, 0, 12)
