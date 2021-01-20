@@ -3,7 +3,7 @@ Panda-UI Library Documentary
 ----------------------------------------------------------------------------------
 Load library:
 Code:
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/miroeramaa/TurtleLib/main/TurtleUiLib.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkieAdmin/Panda-Respiratory/main/Script/Libraries/Core"))()
 
 ----------------------------------------------------------------------------------
 Add windows:
