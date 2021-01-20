@@ -10,8 +10,8 @@ local destroyed
 
 local colorPickers = {}
 
-if game.CoreGui:FindFirstChild('TurtleUiLib') then
-    game.CoreGui:FindFirstChild('TurtleUiLib'):Destroy()
+if game.CoreGui:FindFirstChild('PandaUiLib') then
+    game.CoreGui:FindFirstChild('PandaUiLib'):Destroy()
     destroyed = true
 end
 
@@ -69,11 +69,11 @@ else
 obj.Parent = game.CoreGui
 end
 end
-local TurtleUiLib = Instance.new("ScreenGui")
+local PandaUiLib = Instance.new("ScreenGui")
 
-TurtleUiLib.Name = "TurtleUiLib"
+PandaUiLib.Name = "PandaUiLib"
 
-protect_gui(TurtleUiLib)
+protect_gui(PandaUiLib)
 
 local xOffset = 20
 
@@ -82,7 +82,7 @@ local uis = game:GetService("UserInputService")
 local keybindConnection
 
 function library:Destroy()
-    TurtleUiLib:Destroy()
+    PandaUiLib:Destroy()
     if keybindConnection then
         keybindConnection:Disconnect()
     end
@@ -92,7 +92,7 @@ function library:Keybind(key)
 
     keybindConnection = uis.InputBegan:Connect(function(input, gp)
         if not gp and input.KeyCode == Enum.KeyCode[key] then
-            TurtleUiLib.Enabled = not TurtleUiLib.Enabled
+            PandaUiLib.Enabled = not PandaUiLib.Enabled
         end
     end)
 end
@@ -104,7 +104,7 @@ function library:Window(name)
     local UiWindow = Instance.new("Frame")
 
     UiWindow.Name = "UiWindow"
-    UiWindow.Parent = TurtleUiLib
+    UiWindow.Parent = PandaUiLib
     UiWindow.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
     UiWindow.BorderColor3 = Color3.fromRGB(31, 121, 239)
     UiWindow.Position = UDim2.new(0, xOffset, 0, 20)
@@ -919,4 +919,3 @@ function library:Window(name)
 end
 
 return library
-'+
