@@ -1,5 +1,4 @@
--- If isn't Panda lmfao
--- Updated 1/20/2021 ( Initial Update )
+-- Panda v1.2b UI Lib
 local library = {}
 local windowCount = 0
 local sizes = {}
@@ -293,7 +292,7 @@ function library:Window(name)
         local TextBox = Instance.new("TextBox")
         local BoxDescription = Instance.new("TextLabel")
         TextBox.Parent = Window
-        TextBox.BackgroundColor3 = Color3.fromRGB(53, 59, 72)
+        TextBox.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         TextBox.BorderColor3 = Color3.fromRGB(113, 128, 147)
         TextBox.Position = UDim2.new(0, 99, 0, listOffset[winCount])
         TextBox.Size = UDim2.new(0, 95, 0, 26)
@@ -395,7 +394,7 @@ function library:Window(name)
 
         Slider.Name = "Slider"
         Slider.Parent = Window
-        Slider.BackgroundColor3 = Color3.fromRGB(47, 54, 64)
+        Slider.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         Slider.BorderColor3 = Color3.fromRGB(113, 128, 147)
         Slider.Position = UDim2.new(0, 13, 0, listOffset[winCount])
         Slider.Size = UDim2.new(0, 180, 0, 6)
@@ -406,7 +405,7 @@ function library:Window(name)
         SliderButton.Position = UDim2.new(0, (Slider.Size.X.Offset - 5) * ((default - min)/(max-min)), -1.333337, 0)
         SliderButton.Name = "SliderButton"
         SliderButton.Parent = Slider
-        SliderButton.BackgroundColor3 = Color3.fromRGB(53, 59, 72)
+        SliderButton.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         SliderButton.BorderColor3 = Color3.fromRGB(113, 128, 147)
         SliderButton.Size = UDim2.new(0, 6, 0, 22)
         SliderButton.ZIndex = 3 + zindex
@@ -438,7 +437,7 @@ function library:Window(name)
 
         SilderFiller.Name = "SilderFiller"
         SilderFiller.Parent = Slider
-        SilderFiller.BackgroundColor3 = Color3.fromRGB(76, 209, 55)
+        SilderFiller.BackgroundColor3 = Color3.fromRGB(31, 121, 239) 
         SilderFiller.BorderColor3 = Color3.fromRGB(47, 54, 64)
         SilderFiller.Size = UDim2.new(0, (Slider.Size.X.Offset - 5) * ((default - min)/(max-min)), 0, 6)
         SilderFiller.ZIndex = 2 + zindex
@@ -487,7 +486,7 @@ function library:Window(name)
 
         Dropdown.Name = "Dropdown"
         Dropdown.Parent = Window
-        Dropdown.BackgroundColor3 = Color3.fromRGB(53, 59, 72)
+        Dropdown.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         Dropdown.BorderColor3 = Color3.fromRGB(113, 128, 147)
         Dropdown.Position = UDim2.new(0, 12, 0, listOffset[winCount])
         Dropdown.Size = UDim2.new(0, 182, 0, 26)
@@ -530,7 +529,7 @@ function library:Window(name)
         DropdownFrame.Name = "DropdownFrame"
         DropdownFrame.Parent = Dropdown
         DropdownFrame.Active = true
-        DropdownFrame.BackgroundColor3 = Color3.fromRGB(53, 59, 72)
+        DropdownFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         DropdownFrame.BorderColor3 = Color3.fromRGB(53, 59, 72)
         DropdownFrame.Position = UDim2.new(0, 0, 0, 28)
         DropdownFrame.Size = UDim2.new(0, 182, 0, 0)
@@ -549,7 +548,7 @@ function library:Window(name)
             local Button_2 = Instance.new("TextButton")
             Button_2.Name = "Button"
             Button_2.Parent = DropdownFrame
-            Button_2.BackgroundColor3 = Color3.fromRGB(53, 59, 72)
+            Button_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
             Button_2.BorderColor3 = Color3.fromRGB(113, 128, 147)
             Button_2.Position = UDim2.new(0, 6, 0, canvasSize + 1)
             Button_2.Size = UDim2.new(0, 170, 0, 26)
@@ -660,7 +659,7 @@ function library:Window(name)
 
         ColorPickerFrame.Name = "ColorPickerFrame"
         ColorPickerFrame.Parent = ColorPicker
-        ColorPickerFrame.BackgroundColor3 = Color3.fromRGB(47, 54, 64)
+        ColorPickerFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         ColorPickerFrame.BorderColor3 = Color3.fromRGB(47, 54, 64)
         ColorPickerFrame.Position = UDim2.new(1.40350854, 0, -2.84615374, 0)
         ColorPickerFrame.Size = UDim2.new(0, 158, 0, 155)
@@ -669,7 +668,7 @@ function library:Window(name)
 
         ToggleRGB.Name = "ToggleRGB"
         ToggleRGB.Parent = ColorPickerFrame
-        ToggleRGB.BackgroundColor3 = Color3.fromRGB(47, 54, 64)
+        ToggleRGB.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         ToggleRGB.BorderColor3 = Color3.fromRGB(113, 128, 147)
         ToggleRGB.Position = UDim2.new(0, 125, 0, 127)
         ToggleRGB.Size = UDim2.new(0, 22, 0, 22)
@@ -681,7 +680,7 @@ function library:Window(name)
 
         ToggleFiller_2.Name = "ToggleFiller"
         ToggleFiller_2.Parent = ToggleRGB
-        ToggleFiller_2.BackgroundColor3 = Color3.fromRGB(76, 209, 55)
+        ToggleFiller_2.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
         ToggleFiller_2.BorderColor3 = Color3.fromRGB(47, 54, 64)
         ToggleFiller_2.Position = UDim2.new(0, 5, 0, 5)
         ToggleFiller_2.Size = UDim2.new(0, 12, 0, 12)
@@ -702,7 +701,7 @@ function library:Window(name)
 
         ClosePicker.Name = "ClosePicker"
         ClosePicker.Parent = ColorPickerFrame
-        ClosePicker.BackgroundColor3 = Color3.fromRGB(47, 54, 64)
+        ClosePicker.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
         ClosePicker.BorderColor3 = Color3.fromRGB(47, 54, 64)
         ClosePicker.Position = UDim2.new(0, 132, 0, 5)
         ClosePicker.Size = UDim2.new(0, 21, 0, 21)
