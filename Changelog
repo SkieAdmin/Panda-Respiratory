@@ -1,0 +1,272 @@
+v16.5 ( Security / Enhance Feature Update )
+---------------------------------------------------------------
+[ + ] Agrees on EUA of Panda-Exploit allows the Exploit to Send Diagnostic Report to our Server.
+[ + ] Added More Games ( Probably from Panda Made )
+[ + ] Added
+
+v16.4 ( Performance / Quality Update )
+---------------------------------------------------------------
+[ + ] Injecting Panda-Exploit is more easily than before, By Default ( Custom Injector is Disabled ).  Considering a Fast & Better Injection
+[ + ] Embedding Panda Core ( Module & Bootfrm ) to the UI. Easily Maintain. Except for Panda Game GUI which it used to  Eclipse A+ & Raven Beta v1.0 
+[ + ] Enable Key System 
+[ + ] Recreate Panda-Loader ( Old Bootstrapper will fully disabled )
+[ + ] Major Bug Fixes ( Injection Issue )
+[ + ] Soon Adding Utilities 
+[ + ] Only Allows Windows 10 User to use Panda-Exploit A+
+[ + ] Injection Issue happens without Visual C++ Redistribution, so we added this feature allows you to download Visual C++ Redistribution without hassle.
+[ + ]  implemented EUA / Privacy Policy implemented ( because v16.5 ) update will have a diagnostic hwid sequence which it can solve any panda-exploit's issue & bugs
+
+
+v16.3 ( Reverse Update :tachi_smile:  )  Expect Release on Feb 2nd, 2021 
+---------------------------------------------------------------
+[ + ] Re-added Shadowcheat API ( Technically Remove EasyExploit)
+[ + ] Updater changed for New Compiled Software
+[ + ] Fix Minor Bugs
+[ + ] More Game GUI
+[ + ] Key System replacement to New One ( by @iMaximus  )
+[ + ]  User Interface Redesigned 
+[ + ] Some Feature will be add too
+
+v16.2 ( Fallen Update )
+---------------------------------------------------------------
+[ + ] Added new DLL ( Panda Main & Beta Category )
+[ + ] More Game GUI
+[ + ] Fix Security Bug
+[ + ] Re implement Custom Injector ( For Panda DLL Only )
+[ + ]  Improved Key User Interface
+[ + ] revert to .NET 4.6.2 for stability testing
+
+
+v16.1
+---------------------------------------------------------------
+[ + ] Panda-Exploit will no Longer Support Windows 7 & Windows 8 ( Officially Dropped Support )
+[ + ] Fix Injector ( Minor Bugs )
+[ + ] Fix Injector ( Panda Official DLL )
+[ + ] Can now Disable Voice Command in Settings w/o hassle
+[ + ] Smooth Transition Improvement
+[ + ] Fix Bugs / Removed Vulnerabilities on Panda-Exploit
+[ + ] Soon Adding FTP Script List Box  :arrow_left:  this one is sort of interesting since every script i showcase appears on Script List but won't load on Executor :clown:  instead you can just Execute it directly.
+
+v16.0
+---------------------------------------------------------------
+[ + ] Panda-Exploit Major Bug Fixes
+  - No DLL Fixed
+[ + ] Added Games & Hubs
+[ + ] Voice Command
+- [ List of Commands ] -
+Commands           Descriptions
+panda attach - Inject the Exploit
+panda execute - Execute the Script from the Lua Executor
+select shadow - Without going to Settings, switching API is more easy!, basically it switch API to Shadow
+select panda - Without going to Settings, switching API is more easy!, basically it switch API to Panda Official
+show games - Show Game UI without goes to Script Utility
+
+
+[ + ]  Improved Stability & it use .NET 4.7.2 
+[ + ] Last Support for Windows 8 and beyond
+
+
+Panda-Exploit v15.5.1  ( Announcement: 12/26/2020 at 5:48 PM Manila Time )
+---------------------------------------------------------------
+Fix the Bug Update on Panda-Exploit that make you felt bad.  ( Release on 12/27/2020 )
+
+[ + ] A Major Bug Update had been Found during my Showcase of Panda-Exploit w/ it crash Shadow Cheat API on Version 2004 of Windows 10 and beyond. If you knew how to use Puppy Injector, then go on!
+
+
+v15.5 
+---------------------------------------------------------------
+[ + ] Temporary Discontinued Update of Panda Wrapper ( Due to Lack of Development & Funding )
+[ + ] Update for this Christmas
+[ + ] Added 20 Game GUI
+[ + ] User Interface small
+[ + ] New User Interface on Key System
+
+[ + ] If you asked why ( Save Instance & Owlhub didn't worked ). Since the Default API was ( Shadow Cheat API ) here why:
+A few functions were removed and will be added in a day or so, but as far as crashes go it doesn't happen,
+also not detectable by Roblox since it uses DAC protection. Version --> 7b3e1cf091a4470b* <--. it's somewhat related to the Shadow Cheat API
+or not, but i just copy it from Kiwi X lmfao, More Information about the API, Please Contact Shadow Cheat Developer
+
+
+v15.3 Updated
+---------------------------------------------------------------
+[ + ] Added Save Instance / Remote Spy on Utilities
+[ + ] Fix Shadow Cheat API Inject bug issue. We literally bypassed something.
+
+
+v15.2 
+---------------------------------------------------------------
+[ + ] Shadow Cheat API Updated ( According to Reversed ) for more secured & stability
+[ + ] Added DAC Bypass ( DLL Analyze Check ) on Panda-Exploit using Milky-Puppy DLL Injector ( API Thanks to Dissolve )
+[ + ] Added Game GUI / Script Hub [ Dex, Owlhub, Duck Hub, and Admin Command ], it might add soon 
+[ + ] Fix Bugs on Settings
+[ + ] Slight Improved User Interface
+
+v15.1
+---------------------------------------------------------------
+[ + ] User Interface Rewritten Under Absorbing the Existing Exploit called ( Eclipse Reborn )
+[ + ] Added API ( Shadow API ) Only API 
+[ + ] Key System Improvement 
+[ + ] Bug Fixes
+[ + ] Removing Unnecessary Code that might confuse these Users
+
+Bug Known:
+[ + ] Opening Setting will put Panda-Exploit DLL as Default, you had to click the Shadow API and close to use Shadow API, We might fix it soon
+
+a Follow-up update on v15.2 which release on Tuesday:
+[ + ] Added Game GUI 
+[ + ] Bunch of Collections of Scripts
+[ + ] Improve Stability and Listen to the User Feedbacks
+
+v15.0
+---------------------------------------------------------------
+[ + ] Made UI Simpler and Reliable
+[ + ] Fix Major Bugs & Unexpected Crashes
+[ + ] Added Key System
+[ + ] Improved Wrapper  and Bytecode Conversion
+[ + ] Removed all API
+
+
+v14.4
+---------------------------------------------------------------
+[ + ] Pipe Change 
+[ + ] Minor Bug Fixes of UI
+
+DLL:
+[ + ] HttpGet Supported 
+[ + ] Can officially Run Darked Dex
+[ + ] Stable / Less Memory Leaked
+[ + ] Improved Stability & Performance by 79%
+[ + ] Added More Custom Functions
+[ + ] Currently Testing ( Beta ) Lua U Decompiler Thanks to @lofty [EvolveTeam]  - actually its not yet tested so hopefully someone can do
+
+v14.3 
+---------------------------------------------------------------
+[ + ] Discord Invitation Link Updated!
+[ + ] Fix Bug ( Right click UI = Crash ) Thanks to Void
+[ x ]  Replace Cheatsquad Module with Oxygen U Bytecode 
+[ + ]  Improve Stability of User Interface
+[ + ]  Improve Game GUI
+[ + ]  Adding Infinite Yield FE / Save Game / ESP / Owlhub ( Not Support Yet )
+[ x ]  Removed Owlhub Category
+
+v14.2
+---------------------------------------------------------------
+[ + ] Added Minimize Button 
+[ + ] Fix Major Bug on Custom DLL
+[ + ] PandaAPI Download Link Relinked to other Server because Yesterday Github can't upload the DLL
+[ + ] Soon Adding Tainted Bypass
+[ + ] Soon Adding Read / Write Functions
+[ + ] High Improvement on Exploit's Performance.
+[ + ] Owlhub aren't Gonna work due to AsyncClient on DLL.
+
+
+v14.1
+---------------------------------------------------------------
+[ + ] Performance Improvement
+[ + ] Added Auto Joiner ( Safe! )
+[ + ] Implemented of LuaJIT to Wrapper making the Exploit Fast to Execute.
+[ + ] More Stable!
+[ + ] Fix Major Bugs / Missing Functions
+[ + ] Added Custom DLL 
+[ + ] Obfuscated with .NET Reactor -_-
+[ + ] Added Owlhub ( Arsenal / Universal / Ninja Legend / Counter Blox )
+[ + ] Added New! Other Category ( ESP / Dex / Admin GUI / etc )
+
+v14.0
+---------------------------------------------------------------
+[ + ] Stable User Interface
+[ + ] User Interface Transformed to WPF State
+[ + ] Added Panda Secured Module 
+[ + ] Fix Bugs
+[ + ] Improved Wrapper
+[ + ] Added Checker Tools ( if your script might be an Error or not )
+
+v12.4
+---------------------------------------------------------------
+[+] Discord RPC
+[+] New Loader
+[+] Also Fix Bugs 
+[+] Enable Cheatsquad Module
+[+] Disable Hypermode Technology [ Under Renovation ]
+[+] Disable Custom DLL
+[+] New! Panda-Exploit Security
+
+v12.3
+------------------------------------------------
+[+] Fix Minor Bugs
+[+] Added Custom DLL ( Unstable )
+[+] New Lua Editor 
+[+] Added Script Tabs ( You can now Add Tab! ) 
+
+[+] If you want to use Previews Executor / Editor, Just Go to Settings 
+and Check the ( Use Old / Standard Lua Executor ). This will Enables
+you to use Monaco Executor ( without having Tabs )
+
+[+] API aren't Guarantee to Worked Yet
+
+
+v12.2
+--------------------------------------------------------------
+[+] Implementation of WPF to WinForm
+  - AvalonEdit is now on WinForm 
+  - Soon Adding Tabs and Removing ScintillaNet
+[+] Fix Major Bugs
+[+] Based on v4.6.1 & v4.6.2 ( So Make sure All of them are Installed )
+[+] Improve Stability of the UI
+[+] Improve Machine Learning -_-
+[+] Obfuscated with Eziris .NET Reactor -_-
+
+
+v12.1
+--------------------------------------------------------------
+[ + ] Fix Major Bugs Especially on API 
+[ + ] Replace FastcoloredText with ScintillaNet with Keywords
+[ + ] Fix Confusing Error
+[ + ] Implementation of Anti-Proxo Startup Technology
+[ + ] .NET Set from v4.6.1 to v4.6.2 ( For Stability & Compatibility )
+[ + ] EasyExploit still Remained
+
+
+v12.0
+--------------------------------------------------------------
+[ + ] Upon Downloading Panda-Exploit A+, You will Undergoes 2-3 Linkvertise for Our Revenue, but the Good News is we stopped using Linkvertise Installer because it can lead to damaged our Product.
+
+[ + ] Disabled Auto Joiner due to Hard Security Issue / Many User Complains
+[ + ] Owlhub will gets error if you execute it on EasyExploit
+[ + ] Major Bug Fixes
+[ + ] Loading Form is now on Windows Presentation Form ( Thanks to Profility / Everythin9 for their guiding me on how to manipulate it )
+[ + ] Fix Some Game GUI
+[ + ] Soon Adding Built-in Ironbrew Obfuscator
+
+
+v11.5
+--------------------------------------------------------------
+[ + ] Added Auto Execute
+[ + ] Added Monaco on Panda-Exploit A+
+[ + ] Added Home Button 
+[ + ] Added New Game GUI ( The Street )
+[ + ] Updated ( Ninja Legend )
+[ + ] Fix Unknown Major Bugs 
+[ + ] Added Anti-Proxo Features ( Exploit won't launch if Proxo is Installed on your PC ).
+
+v11.4
+--------------------------------------------------------------
+[ + ] Adding Panda Configuration on File
+[ + ] Improve User Interface
+[ + ] Fixing New Issue
+
+v11.3
+--------------------------------------------------------------
+[ + ] Fix leveldb Bug ( This Bug due to Discord Auto Joiner didn't Detect any Discord from your Device )
+[ + ] Added 7 New Game GUI
+[ + ] New! Panda Admin GUI
+[ + ] Improved Stability 
+[ + ] Added Panda Watermark -_-
+[ + ] Added Owlhub Universal Features!
+[ + ] Other Major Bug Fixes
+
+
+v11.2
+--------------------------------------------------------------
+[ + ] Server Updated from 000webhost to Github ( Temporary Only )
+[ + ] Minor Bug Fixes
