@@ -1,3 +1,11 @@
+v16.8 ( Major Bug Fixed / Added Feature )
+---------------------------------------------------------------
+[ + ] First Prebuild Release of v17.0 Update
+[ + ] Fixed DLL Not Found Issue
+[ + ] Fix Major Bugs
+[ + ] Added DLL Tester Feature
+[ + ] Removed Serverside Diagnostic Log
+
 v16.7 ( Bug Fixes Update )
 ---------------------------------------------------------------
 [ + ] Key System now uses your Default Browser Engine.
