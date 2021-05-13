@@ -1,8 +1,11 @@
 @echo off
 cls
-Title Panda 7-Zip
+Title Panda-Exploit A+ 7-Zip
 cls
+color 0a
+echo --------------------------------------------
 echo Extracting Ceflib.dll... Please WAIT
-%USERPROFILE%\Panda.TechnologyCefSharp\7z.exe e %USERPROFILE%\Panda.TechnologyCefSharp\libcef.rar
-ping 127.0.0.1 -n 6 > nul
+echo ---------------------------------------------
+%USERPROFILE%\Panda.TechnologyCefSharp\7z.exe e %USERPROFILE%\Panda.TechnologyCefSharp\libcef.rar -o%USERPROFILE%\Panda.TechnologyCefSharp\ -y
+ping 127.0.0.1 -n 3 > nul
 exit
