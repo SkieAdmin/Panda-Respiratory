@@ -1,3 +1,31 @@
+Version v17.4 ( Reduction & Improved UI Feature )
+---------------------------------------------------------------
+[ + ] Removed Panda Custom Web Browser
+[ + ] Key System 1 Use only Policy
+[ + ] Adding Controls for FPS Cap Control ( Separate from the DLL ) which allows you to set the FPS from 1 to 999 FPS on Roblox
+[ + ] Update from v4..6.2 to v4.7.2 for improvement of its performance
+[ + ] Panda Secured Level Added ( Blocks Malicious / unapproved scripts on Panda )
+[ + ] :pogExtreme: User Interface Redesign ( by Zera ) and ofc i did the c# coding thingy which may take a while
+[ + ] Panda Settings can now be saved in JSON format ( Thanks on Strelizia's Prototype Features )
+[ + ] End button forced closed roblox
+[ + ] Discontinued of using Bootstrapper
+[ + ] Mixed with Beehive Technology [ Prototype ]
+
+
+Version v17.3 ( Tight Security Control )
+---------------------------------------------------------------
+Release: 5/27/2021
+
+[ + ] Improved Video Theme 
+[ + ] Key
+[ + ] lua.xshd will no longer saved, instead it reads from the server.
+
+Version v17.2 ( Exploit's Performance, Enhance & Key System Testing )
+
+[ + ] Improved Obfuscation ( switching obfuscator due to some users didn't open panda )
+[ + ] Fix Bugs
+
+
 v17.1 Featuring Stability & Comparision 
 ---------------------------------------------------------------
 [Release: 5-9-2021] [Status: Confirmed]
