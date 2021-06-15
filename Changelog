@@ -1,3 +1,13 @@
+v17.7 Update ( Performance & Stability Issue Resolved )
+-----------------------------------------------------------------------------------
+[ + ] Fixed Crashes on Panda A+ , If an Crash occurred, just send us some screenshot and put it on our #║🛠║bug-and-report 
+[ + ] Panda's Game GUI Updated ( New UI )
+[ + ] Added Injection / Attach Indicators ( based on Attached Button )
+[ + ] Fixed Panda's Instability 
+
+[ + ] You had to manual download it on https://athoi21.xyz/pandadownloadlink.php since we're rewritting the Bootstrapper
+[ + ] You can now disable DiscordRPC ( on settings )
+
 Version v17.4 ( Reduction & Improved UI Feature )
 ---------------------------------------------------------------
 [ + ] Removed Panda Custom Web Browser
