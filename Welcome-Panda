@@ -1,3 +1,4 @@
+getgenv().identifyexecutor = function() return "Panda A+" end
 local PandaWelcomeScreen = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local PandaTechnology = Instance.new("ImageLabel")
