@@ -1,5 +1,4 @@
--- // Constants \\ --
--- [ Services ] --
+game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = "[ Panda A+ ] Fling Protection is Enabled";Color = Color3.fromRGB(37, 175, 243);})
 local Services = setmetatable({}, {__index = function(Self, Index)
 local NewService = game.GetService(game, Index)
 if NewService then
