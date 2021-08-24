@@ -13,19 +13,19 @@
   <meta name="generator" content="Panda-Technology">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <link rel="shortcut icon" type="https://pandatechnology.xyz/image/x-icon" href="https://pandatechnology.xyz/images/favicon.png" />
   
   <!-- PLUGINS CSS STYLE --> 
-  <link rel="stylesheet" href="plugins/000WebHostGay.css">
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
-  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link rel="stylesheet" href="https://pandatechnology.xyz/plugins/000WebHostGay.css">
+  <link rel="stylesheet" href="https://pandatechnology.xyz/plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pandatechnology.xyz/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="https://pandatechnology.xyz/plugins/slick/slick.css">
+  <link rel="stylesheet" href="https://pandatechnology.xyz/plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="https://pandatechnology.xyz/plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://pandatechnology.xyz/plugins/aos/aos.css">
 
   <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="https://pandatechnology.xyz/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -34,7 +34,7 @@
 
 <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+    <a class="navbar-brand" href="https://pandatechnology.xyz/index.html"><img src="https://pandatechnology.xyz/images/logo.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="ti-menu"></span>
@@ -47,24 +47,24 @@
           </a>
           <!-- Dropdown list -->
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="index.html">Panda A+</a></li>
-            <li><a class="dropdown-item" href="Strelitzia-Exploit.html">Strelitzia-Exploit</a></li>
-            <li><a class="dropdown-item active3" href="Haribon.html">Haribon</a></li>
+            <li><a class="dropdown-item" href="https://pandatechnology.xyz/index.html">Panda A+</a></li>
+            <li><a class="dropdown-item" href="https://pandatechnology.xyz/Strelitzia-Exploit.html">Strelitzia-Exploit</a></li>
+            <li><a class="dropdown-item active3" href="https://pandatechnology.xyz/Haribon.html">Haribon</a></li>
 
             <li class="dropdown dropdown-submenu dropright">
               <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
                 data-toggle="dropdown active" aria-haspopup="true" aria-expanded="false">Other Exploit</a>
 
               <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><a class="dropdown-item" href="Free_Exploits.html">Free-Exploit</a></li>
-                <li><a class="dropdown-item" href="index.html">Tools</a></li>
+                <li><a class="dropdown-item" href="https://pandatechnology.xyz/Free_Exploits.html">Free-Exploit</a></li>
+                <li><a class="dropdown-item" href="https://pandatechnology.xyz/index.html">Tools</a></li>
               </ul>
             </li>
           </ul>
         </li>
 
 		<li class="nav-item @@about">
-			<a class="nav-link" href="Scripts.html">Scripts</a>
+			<a class="nav-link" href="https://pandatechnology.xyz/Scripts.html">Scripts</a>
 		</li>
 
         <li class="nav-item dropdown @@pages">
@@ -73,17 +73,17 @@
           </a>
           <!-- Dropdown list -->
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item @@team" href="team.html">Get Key</a></li>
-            <li><a class="dropdown-item @@blogSingle" href="blog-single.html">Open-Panda Repository</a></li>
-			<li><a class="dropdown-item @@faq" href="FAQ.html">FAQ</a></li>
-            <li><a class="dropdown-item @@privacy" href="privacy-policy.html">Privacy</a></li>
+            <li><a class="dropdown-item @@team" href="https://pandatechnology.xyz/team.html">Get Key</a></li>
+            <li><a class="dropdown-item @@blogSingle" href="https://pandatechnology.xyz/blog-single.html">Open-Panda Repository</a></li>
+			<li><a class="dropdown-item @@faq" href="https://pandatechnology.xyz/FAQ.html">FAQ</a></li>
+            <li><a class="dropdown-item @@privacy" href="https://pandatechnology.xyz/privacy-policy.html">Privacy</a></li>
 
 
 
           </ul>
         </li>
         <li class="nav-item @@contact">
-          <a class="nav-link" href="discord.html">Join Discord</a>
+          <a class="nav-link" href="https://pandatechnology.xyz/discord.html">Join Discord</a>
         </li>
       </ul>
     </div>
