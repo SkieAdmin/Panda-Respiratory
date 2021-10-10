@@ -1,14 +1,15 @@
+[ Updated as 10/10/2021 ]
 
 Copyright (c) 2019-2021 Panda-Technology
 
 No one is allowed to copy, modify, publish, compile, or
 sell, this software, either in source code form or as a compiled
 binary, for any purpose, commercial or non-commercial, and by any
-means without Panda-Owner ( SkieHacker ) and Panda C.E.O ( Zexea ) permission.
+means without Panda-CEO ( SkieHacker ) and Panda-Misako Developer ( Rexi ) permission.
 
 You may distribute this software IN THE FORM THAT IT WAS PUBLISHED
-via WeAreDevs, V3rmillion, and (or) our website. Any other forms of distribution doesn't need permission to us
-with an exception that you don't put the user who want to download to false link.
+via WeAreDevs, V3rmillion, and (or) our website. Any other forms of distribution requires
+linked to this particular page (" https://pandatechnology.xyz/ ") 
 
 Use of the original unmodified software is here by granted to anyone.
 
@@ -44,7 +45,7 @@ Categories:
     Section #0: Introduction of Data Privacy Policy
     Section #1: Collection
     Section #2: Changes on Privacy Policy
-    Section #3: Data Usage of Panda-Explot A+ / Panda Softwares
+    Section #3: Data Usage of Panda-Explot A+ / Panda Softwares / Panda Architecture
 
 [ ------------------------------------------------------ ]
 
@@ -66,39 +67,33 @@ Definitions
 Section #1: Collection
 
 What Panda-Exploit & Panda-Technology collects?:
-Upon using the Panda-Exploit A+, we will collect your following details:
- - HWID ( Hardware ID )
- - YOUR SYSTEM INFORMATION ( only your Operating System, Capacity of RAM, Name of CPU, and Antimalware/Antivirus currently use )
- - Panda's Diagnostic Logs ( Performance / Errors on Panda-Exploit _
+Upon using the Panda-Exploit A+ or their Architecture, we will collect your following details:
+ - HWID ( Hardware ID ) and Basic Information about your Device ( IP Address are not included )
+ - Discord ( Username only ) Password and other details are not included for security & data privacy concern.
+ - Panda's Diagnostic Logs ( Performance / Errors on Panda-Exploit )
 
 
 Section #2: Changes
 
 Changes To Privacy Policy
 
-The Panda Technology & Pelican Technology, reserve the right, at our sole discretion, to modify or replace the Privacy Policy at any time. If revision is material, we will make efforts to provide at least 30-60 days' notice prior to any new policies taking effect. What constitutes a material change will be determined at our sole discretion.
+The Panda-Beehive Technology & Misako Development, reserve the right, at our sole discretion, to modify or replace the Privacy Policy at any time. If revision is material, we will make efforts to provide at least 30-60 days' notice prior to any new policies taking effect. What constitutes a material change will be determined at our sole discretion.
 
 
-Section #3: Data Usage of Panda-Explot A+ / Panda Softwares
+Section #3: Data Usage of Panda-Explot A+ / Panda Softwares / Panda Architecture
 
-[ + ] What does Panda-Technology do with my HWID?:
-  - Panda-Technology Developer uses your HWID to identify a user without revealing the personal information, it can be use to check if you're violating the EUA on Panda Technology and adding your HWID to Hardware Banned List.
+[ + ] What does Panda-Technology do with my Discord Username?:
+  - Panda-Technology Developer uses your Discord Username for easily identify a user without revealing the personal information, it can be use to check and review the report / issue you may encounter on our panda development.
 
-Does Panda-Technology sell data to any other companies?
+[ + ] Does Panda-Technology sell data to any other companies?
 Panda-Technology Team does not sell your private data to anyone (I.E, Tech Companies, Advertising Companies) and it won't be used on malicious way.
 
-[ + ] How long does Panda-Technology store my HWID?
-Panda-Technology stores your HWID for a week before the system is purged. However, if Any Panda-Software is used again after that month, your HWID will be back in our system for another month. Adding on, upon being banned, your HWID will stay in our ban system forever or submitting ban appeals.
+[ + ] How long does Panda-Technology store My Report Information?
+Panda-Technology stores your Reported Information for a 24-72 Hours before the system is purged. However, sometimes it could take a week ( Manual Purged ).
 
 [ + ] Why Panda-Technology Collects our Diagnostic Logs?
-   - To Improve the Software and Analyze the Issues, Fixing an Bug without wasting time and enhance performance on panda-exploit not just it but to make sure that your issue on using Panda-Exploit will easily solve.
-
-
-EUA/PRIVACY UNLOCK PIN: 003920ND
-
-- This will only appear once before continue using Panda-Exploit or the Agreement / Data Privacy Policy will changed.
--- by using this product you agree to the TOS and you acknowledge that you WILL be banned if TOS and Data Privacy Policy is breaked / violated
-
+   - To Analyze, Improve, Correct your Mistakes nor Help with your current Issue, nor a fatal bug that we found out. We can't create Support on Discord due to Discord Terms of Service.
+   
 
 
 
