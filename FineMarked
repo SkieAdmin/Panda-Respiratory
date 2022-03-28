@@ -1,42 +1,47 @@
-print("Panda A+ Loaded")
--- Gui to Lua
--- Version: 3
+print("==============================================")
+print("Panda A+ Development is Now Loaded")
+print("==============================================")
+print("Thank you for using Panda-Development Network.")
 
--- Instances:
 
-local PandaLogo = Instance.new("ScreenGui")
+local Balls = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local ImageLabel = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 
---Properties:
 
-PandaLogo.Name = "PandaLogo"
-PandaLogo.Parent = game.CoreGui
-PandaLogo.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-PandaLogo.ResetOnSpawn = false
+Balls.Name = "Balls"
+Balls.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Balls.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Balls.ResetOnSpawn = false
 
-Frame.Parent = PandaLogo
-Frame.BackgroundColor3 = Color3.new(0.0588235, 0.686275, 0.94902)
-Frame.BackgroundTransparency = 0.60000002384186
+Frame.Parent = Balls
+Frame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Frame.BackgroundTransparency = 0.600
 Frame.Position = UDim2.new(0, 0, 0.943073988, 0)
-Frame.Size = UDim2.new(0, 240, 0, 45)
+Frame.Size = UDim2.new(0, 240, 0, 52)
 
 ImageLabel.Parent = Frame
-ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel.BackgroundTransparency = 1
-ImageLabel.Position = UDim2.new(9.53674316e-07, 0, 0, 0)
-ImageLabel.Size = UDim2.new(0, 46, 0, 42)
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0, 0, 0.057692308, 0)
+ImageLabel.Size = UDim2.new(0, 51, 0, 45)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=5179834402"
 
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(65, 147, 255)
+Frame_2.Position = UDim2.new(0, 0, 0.923076928, 0)
+Frame_2.Size = UDim2.new(0, 240, 0, 4)
+
 TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel.BackgroundTransparency = 1
-TextLabel.Position = UDim2.new(0.191666663, 0, 0.244444445, 0)
-TextLabel.Size = UDim2.new(0, 165, 0, 20)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Powered by Panda Technology"
-TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.212500006, 0, 0.173076928, 0)
+TextLabel.Size = UDim2.new(0, 184, 0, 28)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Powered by Panda Development"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
-TextLabel.TextSize = 14
+TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
